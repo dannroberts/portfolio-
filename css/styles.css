@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Nanum+Gothic|Open+Sans+Condensed:300&display=swap');
+/* container div */
+.container {
+    margin: 0 100px;
+}
+
+/* about section */
+#about{
+    min-height: 500px;
+    width: 100%;
+    background: white;
+    border-bottom: 3px solid grey;
+}
+
+/* profile section */
+#profile img{
+    width: 300px;
+    height: 300px;
+    margin-left: 40%;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+#profile h1{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:darkslategrey
+}
+#profile p{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    color: darkslategrey
+}
+/* nav section */
+#nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ 
+}
+#nav h1 {
+    padding: 20px 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* projects section */
+#projects {
+    min-height: 500px;
+    width: 100%;
+    background: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-bottom: 3px solid grey;
+}
+
+ul li {
+    font-size: 2em;
+}
+
+
+/* skills section */
+
+#skills{
+    text-align: center;
+    min-height: 500px;
+    width: 100%;
+    background: white;
+    border-bottom: 3px solid grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* background: red; */
+}
+
+.skills-logos{
+    display: flex;
+    justify-content: space-evenly;   
+    margin-top: 75px;
+    margin-bottom: 30px; 
+}
+
+.skills-logos div img{
+    width: 150px;
+    height: 150px;
+}
