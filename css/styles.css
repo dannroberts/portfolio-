@@ -11,15 +11,39 @@
     width: 100%;
     background: white;
     border-bottom: 3px solid grey;
+    text-align: center;
+
 }
 
+.heading {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+/* social media icons */
+.fab{
+    padding: 20px;
+    font-size: 35px;
+}
+
+.twitter-icon{
+    color: #1bb2e8;
+}
+.linked-in-icon{
+    color: grey;
+}
+
+.github-icon{
+    color: black;
+}
 /* profile section */
 #profile img{
-    width: 300px;
-    height: 300px;
-    margin-left: 40%;
+    width: 200px;
+    height: 200px;
     margin-top: 30px;
     border-radius: 50%;
+    
 }
 #profile h1{
     display: flex;
@@ -55,12 +79,17 @@
     background: white;
     font-family: 'Open Sans Condensed', sans-serif;
     border-bottom: 3px solid grey;
+    text-align: center;
 }
 
-ul li {
-    font-size: 2em;
+.project-icons{
+    box-shadow:10px 10px grey;
 }
-
+.project-link {
+    margin: 40px;
+    padding-top:50px;
+    font-size: 30px;
+}
 
 /* skills section */
 
@@ -78,10 +107,35 @@ ul li {
     display: flex;
     justify-content: space-evenly;   
     margin-top: 75px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .skills-logos div img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.learn-logos{
+    display: flex;
+    justify-content: space-evenly;   
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.learn-logos div img{
+    width: 200px;
+    height: 200px;
+}
+
+/* mobile devices */
+@media only screen and (max-width: 600px) {
+   .container{
+       margin: 0;
+   }
+   .skills-logos{
+       flex-direction: column;
+   }
+   .learn-logos{
+      flex-direction: column;
+   }
 }
